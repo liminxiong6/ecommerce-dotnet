@@ -1,3 +1,9 @@
+@use "@angular/material" as mat;
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+$customTheme: mat.define-theme();
+
+@include mat.core();
